@@ -12,14 +12,18 @@ class App extends Component {
     super()
 
     this.state = {
-      recipes = [];
+      recipes: []
     }
   }
-  return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
-  );
+
+  render() {
+
+    return (
+      <div className="App">
+        <h1>hello world</h1>
+      </div>
+    );
+  }
 }
 
 export default App;
