@@ -1,3 +1,18 @@
+body {
+  background-color: #e3fee5;
+}
+
 .App {
+  /* align-items: center; */
+  display: flex;
+  height: 100vh;;
+  justify-content: center;
   text-align: center;
 }
+
+/* .container {
+  background-color: rgb(255, 254, 249);
+  border-radius: 10px;
+  height: 80vh;
+  width: 80vw;
+} */
